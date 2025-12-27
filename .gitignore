@@ -18,8 +18,8 @@ derby.log
 # ----------------------------
 # Data outputs (generated)
 # ----------------------------
-data/silver/
-data/gold/
+data/silver/*
+data/gold/*
 
 # ----------------------------
 # OS / Editor junk
