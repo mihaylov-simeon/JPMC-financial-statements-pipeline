@@ -22,6 +22,12 @@ data/silver/*
 data/gold/*
 
 # ----------------------------
+# Keep folder structure
+# ----------------------------
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# ----------------------------
 # OS / Editor junk
 # ----------------------------
 .DS_Store
