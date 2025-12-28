@@ -77,20 +77,24 @@ CATEGORY | TRX_DT | TRX_AMT | YOY_CHG | YOY_PCT_CHG
 
 ## Project Structure
 
-PROJECT
-|---data
-| |--- bronze
-| | |--- JPM_balance_sheet.csv
-| |--- silver
-| | |--- financial_statements_jpm_silver/
-| | --- gold
-| | |--- financial_statements_jpm_gold/
-|---src
-| |---pipelines
-| | |---financial-statements-jpm.py
-|
-|---README.md
-|---requirements.txt
+PROJECT:
+
+📦 project-root
+ ┣ 📂 data
+ ┃ ┣ 📂 bronze        → raw source files
+ ┃ ┃ ┗ 📄 JPM_balance_sheet.csv
+ ┃ ┣ 📂 silver        → normalized datasets
+ ┃ ┃ ┣ 📂 financial_statements_jpm_silver
+ ┃ ┃ ┗ 📄 .gitkeep
+ ┃ ┗ 📂 gold          → analytics-ready outputs
+ ┃   ┣ 📂 financial_statements_jpm_gold
+ ┃   ┗ 📄 .gitkeep
+ ┣ 📂 src
+ ┃ ┣ 📂 pipelines     → Spark ETL logic
+ ┃ ┗ 📂 analysis      → analysis & visualization
+ ┣ 📄 README.md
+ ┣ 📄 requirements.txt
+ ┗ 📄 .gitignore
 
 ---
 
@@ -100,7 +104,6 @@ From the project root:
 
 ```bash
 puthon src/pipelines/financial-statements-jpm
-```
 
 ---
 
