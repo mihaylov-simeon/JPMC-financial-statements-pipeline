@@ -81,20 +81,35 @@ PROJECT:
 
 📦 project-root
  ┣ 📂 data
+ 
  ┃ ┣ 📂 bronze
+ 
  ┃ ┃ ┗ 📄 JPM_balance_sheet.csv
+ 
  ┃ ┣ 📂 silver
+ 
  ┃ ┃ ┣ 📂 financial_statements_jpm_silver
+ 
  ┃ ┃ ┗ 📄 .gitkeep
+ 
  ┃ ┗ 📂 gold
+ 
  ┃   ┣ 📂 financial_statements_jpm_gold
+ 
  ┃   ┗ 📄 .gitkeep
+ 
  ┣ 📂 src
+ 
  ┃ ┣ 📂 pipelines
+ 
  ┃ ┗ 📂 analysis
+ 
  ┣ 📄 README.md
+ 
  ┣ 📄 requirements.txt
+ 
  ┗ 📄 .gitignore
+ 
 
 ---
 
@@ -104,7 +119,7 @@ From the project root:
 
 ```bash
 puthon src/pipelines/financial-statements-jpm
-
+```
 ---
 
 ## Author
