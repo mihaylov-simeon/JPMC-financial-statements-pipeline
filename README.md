@@ -80,8 +80,8 @@ CATEGORY | TRX_DT | TRX_AMT | YOY_CHG | YOY_PCT_CHG
 PROJECT:
 
 📦 project-root
- ┣ 📂 data
- 
+
+ ┣ 📂 data 
  ┃ ┣ 📂 bronze
  
  ┃ ┃ ┗ 📄 JPM_balance_sheet.csv
