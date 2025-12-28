@@ -119,7 +119,7 @@ PROJECT:
 From the project root:
 
 ```bash
-puthon src/pipelines/financial-statements-jpm
+python src/pipelines/financial-statements-jpm.py
 ```
 ---
 
