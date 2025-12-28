@@ -81,7 +81,8 @@ PROJECT:
 
 📦 project-root
 
- ┣ 📂 data 
+ ┣ 📂 data
+ 
  ┃ ┣ 📂 bronze
  
  ┃ ┃ ┗ 📄 JPM_balance_sheet.csv
