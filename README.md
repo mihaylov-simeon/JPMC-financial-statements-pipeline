@@ -81,17 +81,17 @@ PROJECT:
 
 📦 project-root
  ┣ 📂 data
- ┃ ┣ 📂 bronze        → raw source files
+ ┃ ┣ 📂 bronze
  ┃ ┃ ┗ 📄 JPM_balance_sheet.csv
- ┃ ┣ 📂 silver        → normalized datasets
+ ┃ ┣ 📂 silver
  ┃ ┃ ┣ 📂 financial_statements_jpm_silver
  ┃ ┃ ┗ 📄 .gitkeep
- ┃ ┗ 📂 gold          → analytics-ready outputs
+ ┃ ┗ 📂 gold
  ┃   ┣ 📂 financial_statements_jpm_gold
  ┃   ┗ 📄 .gitkeep
  ┣ 📂 src
- ┃ ┣ 📂 pipelines     → Spark ETL logic
- ┃ ┗ 📂 analysis      → analysis & visualization
+ ┃ ┣ 📂 pipelines
+ ┃ ┗ 📂 analysis
  ┣ 📄 README.md
  ┣ 📄 requirements.txt
  ┗ 📄 .gitignore
