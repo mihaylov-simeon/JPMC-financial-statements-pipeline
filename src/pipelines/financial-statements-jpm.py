@@ -46,6 +46,8 @@ def main():
         )
         per_date_dfs.append(df_for_one_date)
 
+    raw.write.mode("overwrite").parquet("data/bronze/financial_statements_jpm_bronze")
+
     silver = reduce(lambda df1, df2: df1.unionByName(df2), per_date_dfs)
 
     silver = silver.withColumn("TRX_DT", to_date(col("TRX_DT"), "yyyy-MM-dd"))
